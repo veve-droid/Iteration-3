@@ -38,13 +38,13 @@ int main(){
 			scanf("%d", &n);
 		}while(n<1);
 		
-		for(i=1; i<n; i++){
+		for(i=2; i * i < n; i++){
 		
 			if(n % i == 0)
 				sum=sum+i;
 		}
 		
-		if(sum==n){
+		if(sum + 1==n){
 			printf("%d is a Perfect Number.\n",n);}
 		else{
 			printf("%d is not a Perfect Number.\n",n);}
