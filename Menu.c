@@ -44,7 +44,7 @@ int main(){
 				sum=sum+i;
 		}
 		
-		if(sum + 1==n){
+		if(sum + 1 == n){
 			printf("%d is a Perfect Number.\n",n);}
 		else{
 			printf("%d is not a Perfect Number.\n",n);}
